@@ -1,0 +1,5 @@
+<launch>
+    <node name="estimationState_node" pkg="estimationState" type="estimationState" output="screen">
+        <rosparam command="load" file="$(find estimationState)/config/estimationState.yaml" /> <!--Load parameters from config files-->
+    </node>
+</launch>

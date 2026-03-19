@@ -1,0 +1,25 @@
+#subscriber
+imu_state_topic_name: /sensor/imu
+center_points_topic_name : /perception/cones_centroid
+slam_state_topic_name : /my_position
+
+#publisher
+tf_info_topic_name : /tf/info
+imu_error_signal_topic_name : /error/signal
+imu_coord_topic_name : /imu/coord
+localization_way_topic_name : /localization/way
+mission_topic_name : /mission
+visual_triangles_topic_name : /visual/triangles
+visual_path_topic_name : /visual/path
+
+localization_way : slam # imu slam
+
+mission : acceleration # acceleration skidpad trackdrive check
+
+#msg show
+check_imformation_imu: false # true/false
+check_imformation_coordtrans: false # true/false
+
+laser2base_length : 1.6
+fitting_size : 6
+node_rate: 10    # [Herz]

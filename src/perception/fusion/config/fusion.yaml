@@ -1,0 +1,18 @@
+image_topic_name: /darknet_ros/detection_image
+
+lidar_topic_name: /perception/cluster_cones
+
+calibration_file: /home/RZS/A06_ws/src/perception/fusion/config/2023.yaml
+
+cone_bbox:
+  area_max: 0.25 # 图像尺寸的百分之多少
+
+  area_min: 0
+
+  h_w_ratio_min: 0.1
+
+match_iou: -0.5
+
+project_visual: true
+
+node_rate: 15   # [Herz]

@@ -1,0 +1,43 @@
+# Subscriber
+car_state_topic_name: /estimation/slam/state
+
+# Publisher
+ctrl_cmd_topic_name: /control/pure_pursuit/control_command
+trajectory_path_topic_name: /path/trajectory
+target_path_topic_name: /path/target
+predict_path_topic_name: /path/predict
+
+# MPC params:
+weight:
+  x: 1.5
+  y: 1.5
+  yaw: 8
+  lateral_error: 1
+  yaw_error: 4
+  v: 0.4
+  steering_angle: 4
+  throttle: 10
+  steering_rate: 2000
+  throttle_rate: 10
+  desire_vel: 10
+
+# Pure Pursuit params:
+desire_vel: 2
+
+car_length: 1.88
+
+look_ahead: 40
+# other params:
+N: 20
+
+dt: 0.04
+
+initial_velocity: 2
+
+mission: trackdrive          # [trackdrive, skidpad, acceleration]
+
+controller: pure_pursuit  # [mpc, pure_pursuit]
+
+simulation: true
+
+node_rate: 20   # [Herz]

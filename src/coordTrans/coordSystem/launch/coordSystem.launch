@@ -1,0 +1,11 @@
+<launch>
+    <node name="coordSystem_node" pkg="coordSystem" type="coordSystem" output="screen">
+        <rosparam command="load" file="$(find coordSystem)/config/coordSystem.yaml" /> <!--Load parameters from config files-->
+    </node>
+    <!-- <node name="tf_broadcaster_node" pkg="tf_broadcaster" type="tf_broadcaster" output="screen">
+        <rosparam command="load" file="$(find tf_broadcaster)/config/tf_broadcaster.yaml" />
+    </node>
+    <node name="estimationState_node" pkg="estimationState" type="estimationState" output="screen">
+        <rosparam command="load" file="$(find estimationState)/config/estimationState.yaml" /> Load parameters from config files
+    </node> -->
+</launch>

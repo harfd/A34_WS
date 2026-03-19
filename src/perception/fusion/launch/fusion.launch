@@ -1,0 +1,5 @@
+<launch>
+    <node name="fusion_node" pkg="fusion" type="fusion" output="screen">
+        <rosparam command="load" file="$(find fusion)/config/fusion.yaml" /> <!--Load parameters from config files-->
+    </node>
+</launch>

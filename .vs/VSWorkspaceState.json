@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\perception",
+    "\\src\\perception\\lidar_cluster",
+    "\\src\\perception\\lidar_cluster\\launch",
+    "\\src\\perception\\lidar_cluster\\src"
+  ],
+  "PreviewInSolutionExplorer": false
+}

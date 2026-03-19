@@ -1,0 +1,2 @@
+LeGO-LOAM-master/LeGO-LOAM:LeGO-LOAM-master/cloud_msgs:can_interaction:control:coordTrans/coordSystem:coordTrans/estimation_state:coordTrans/tf_broadcaster:imu_load:ndt_localizer-master:perception/StarROS_v2.4.8:perception/daheng:perception/darknet_ros/darknet_ros:perception/darknet_ros/darknet_ros_msgs:perception/fusion:perception/lidar_check:perception/lidar_cluster:planning/boundary_detector:preparation/fsd_common_msgs:preparation/fsd_tools
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/RZS/A06_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/RZS/A06_ws/install_isolated

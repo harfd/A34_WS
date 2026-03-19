@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/devel_isolated/tf_broadcaster
+
+Name: tf_broadcaster
+Description: Description of tf_broadcaster
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

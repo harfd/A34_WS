@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/devel_isolated/daheng
+
+Name: daheng
+Description: Description of daheng
+Version: 0.0.0
+Cflags: -I/home/RZS/A06_ws/src/perception/daheng/include
+Libs: -L${prefix}/lib -ldaheng
+Requires: cv_bridge image_transport roscpp rospy

@@ -1,0 +1,6 @@
+#subscriber
+tf_info_sub_topic_name : /tf/info
+localization_way_sub_topic_name : /localization/way
+mission_topic_name : /mission
+
+node_rate: 10   # [Herz]

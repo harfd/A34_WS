@@ -1,0 +1,3 @@
+serial_port : /dev/ttyUSB0
+imu_msgs_topic_name : /sensor/imu
+node_rate : 20

@@ -1,0 +1,6 @@
+perception/lidar_cluster
+/home/rzs/catkin_ws1/devel/.private/lidar_cluster/cmake.lock /home/rzs/catkin_ws1/devel/./cmake.lock
+/home/rzs/catkin_ws1/devel/.private/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake /home/rzs/catkin_ws1/devel/share/lidar_cluster/cmake/lidar_clusterConfig-version.cmake
+/home/rzs/catkin_ws1/devel/.private/lidar_cluster/share/lidar_cluster/cmake/lidar_clusterConfig.cmake /home/rzs/catkin_ws1/devel/share/lidar_cluster/cmake/lidar_clusterConfig.cmake
+/home/rzs/catkin_ws1/devel/.private/lidar_cluster/lib/pkgconfig/lidar_cluster.pc /home/rzs/catkin_ws1/devel/lib/pkgconfig/lidar_cluster.pc
+/home/rzs/catkin_ws1/devel/.private/lidar_cluster/lib/lidar_cluster/lidar_cluster /home/rzs/catkin_ws1/devel/lib/lidar_cluster/lidar_cluster

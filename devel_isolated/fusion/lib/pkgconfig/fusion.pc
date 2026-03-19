@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/devel_isolated/fusion
+
+Name: fusion
+Description: Description of fusion
+Version: 1.0.0
+Cflags: -I/home/RZS/A06_ws/devel_isolated/fusion/include -I/home/RZS/A06_ws/src/perception/fusion/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime pcl_conversions pcl_msgs pcl_ros cv_bridge image_transport roscpp rospy

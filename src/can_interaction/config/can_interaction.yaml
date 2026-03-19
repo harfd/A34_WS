@@ -1,0 +1,16 @@
+#Subscriber
+controlCmd_topic_name: /control/pure_pursuit/control_command
+error_signal_topic_name: /error_signal
+#Publisher
+res_sign_topic_name: /res/linked_signal
+
+motor_torque: 3
+max_torque : 30
+
+can_id_write: 0x11
+can_dlc_write: 4
+can_id_read: 0x1E4
+
+transmission_ratio : 5
+test_angle: 0
+node_rate: 10   # [Herz]

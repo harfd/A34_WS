@@ -1,0 +1,21 @@
+<!-- version:    3.3
+     author:     Shawn Pan
+     Time:       2021.4.10 17:16
+     增加了命名空间 ns="$(arg camera_name) 在数据读取的时候，注意加上命名空间，或者用私有属性，继承节点初始化名字
+     eg：  <node pkg="daheng" type="daheng_driver"  name="$(arg camera_name)" output="screen">
+-->
+
+<launch>
+    <!--命名空间名 -->
+    <arg name="camera_name" default="daheng_camera" />
+
+    <!-- 相机参数文档 -->
+    <arg name="cam_param_file"     default="$(find daheng)/config/cam_param.yaml"/>
+
+    <!-- 加载参数 -->
+    <rosparam command="load" ns="$(arg camera_name)" file="$(arg cam_param_file)"/>
+
+    <node pkg="daheng" type="daheng_driver"  name="$(arg camera_name)" output="screen">
+    </node>
+
+</launch>

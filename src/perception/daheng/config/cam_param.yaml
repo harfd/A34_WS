@@ -1,0 +1,22 @@
+publishers:
+
+  camera_pub:
+    topic: /camera/image
+    queue_size: 1
+    latch: false
+
+camera_param:
+  
+  w_mode: continuous            # 白平衡模式 continuous / manual
+  w_red: 1.4023
+  w_green: 1.0
+  w_blue: 1.9297
+  reverse_x: false              # 水平/垂直翻转
+  reverse_y: false
+  exposure_mode: continuous     # 曝光模式 continuous / once / off
+  exposure_time_min: 20         # ms
+  exposure_time_max: 200000
+  gain_mode: "off"              # 曝光增益模式 continuous / once / off
+  gain_value: 15  #15                # 曝光增益(直接提高亮度，能有效改善曝光时间增加带来的帧率降低)
+
+node_rate: 40

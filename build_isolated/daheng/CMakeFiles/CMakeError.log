@@ -1,0 +1,102 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4f0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4f0b.dir/build.make CMakeFiles/cmTC_a4f0b.dir/build
+make[1]: 进入目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a4f0b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a4f0b.dir/CheckSymbolExists.c.o   -c /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a4f0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4f0b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a4f0b.dir/CheckSymbolExists.c.o  -o cmTC_a4f0b 
+CMakeFiles/cmTC_a4f0b.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a4f0b.dir/build.make:97: recipe for target 'cmTC_a4f0b' failed
+make[1]: *** [cmTC_a4f0b] Error 1
+make[1]: 离开目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_a4f0b/fast' failed
+make: *** [cmTC_a4f0b/fast] Error 2
+
+File /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6c7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6c7b.dir/build.make CMakeFiles/cmTC_f6c7b.dir/build
+make[1]: 进入目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f6c7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f6c7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f6c7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6c7b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f6c7b.dir/CheckFunctionExists.c.o  -o cmTC_f6c7b -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f6c7b.dir/build.make:97: recipe for target 'cmTC_f6c7b' failed
+make[1]: *** [cmTC_f6c7b] Error 1
+make[1]: 离开目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_f6c7b/fast' failed
+make: *** [cmTC_f6c7b/fast] Error 2
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_09c3e/fast && make[1]: 进入目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+/usr/bin/make  -f CMakeFiles/cmTC_09c3e.dir/build.make CMakeFiles/cmTC_09c3e.dir/build
+make[2]: 进入目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_09c3e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_09c3e.dir/src.c.o -c /home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_09c3e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09c3e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_09c3e.dir/src.c.o -o cmTC_09c3e 
+CMakeFiles/cmTC_09c3e.dir/src.c.o：在函数‘main’中：
+src.c:(.text+0x3e)：对‘pthread_create’未定义的引用
+src.c:(.text+0x4a)：对‘pthread_detach’未定义的引用
+src.c:(.text+0x56)：对‘pthread_cancel’未定义的引用
+src.c:(.text+0x67)：对‘pthread_join’未定义的引用
+src.c:(.text+0x7b)：对‘pthread_atfork’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09c3e.dir/build.make:98: recipe for target 'cmTC_09c3e' failed
+make[2]: *** [cmTC_09c3e] Error 1
+make[2]: 离开目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+Makefile:127: recipe for target 'cmTC_09c3e/fast' failed
+make[1]: *** [cmTC_09c3e/fast] Error 2
+make[1]: 离开目录“/home/RZS/A06_ws/build_isolated/daheng/CMakeFiles/CMakeTmp”
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

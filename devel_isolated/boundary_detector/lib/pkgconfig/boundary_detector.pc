@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/devel_isolated/boundary_detector
+
+Name: boundary_detector
+Description: Description of boundary_detector
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,19 @@
+#subscriber
+imu_state_topic_name : /sensor/imu
+tf_info_sub_topic_name : /tf/info
+imu_coord_sub_topic_name : /imu/coord
+localization_way_sub_topic_name : /localization/way
+cone_map_sub_topic_name : /cone_map
+mission_topic_name : /mission
+#publisher
+car_state_topic_name : /estimation/slam/state
+local_map_topic_name : /local_map
+
+mission: acceleration # [trackdrive, skidpad, acceleration]
+
+
+node_rate: 10   # [Herz]
+coordSystemNum : 4
+
+slamCoordFile : "/home/rzs/data_record/coord_slam.txt"
+imuCoordFile : "/home/rzs/data_record/coord_imu.txt"

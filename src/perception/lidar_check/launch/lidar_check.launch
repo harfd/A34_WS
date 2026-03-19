@@ -1,0 +1,4 @@
+<launch>
+    <node name="lidar_check" pkg="lidar_check" type="lidar_check" output="screen">
+    </node>
+</launch>

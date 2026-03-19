@@ -1,0 +1,2 @@
+set(fsd_common_msgs_MESSAGE_FILES "/home/RZS/A06_ws/src/preparation/fsd_common_msgs/msg/Cone.msg;/home/RZS/A06_ws/src/preparation/fsd_common_msgs/msg/ControlCommand.msg;/home/RZS/A06_ws/src/preparation/fsd_common_msgs/msg/CarState.msg;/home/RZS/A06_ws/src/preparation/fsd_common_msgs/msg/CarStateDt.msg;/home/RZS/A06_ws/src/preparation/fsd_common_msgs/msg/Map.msg")
+set(fsd_common_msgs_SERVICE_FILES "")

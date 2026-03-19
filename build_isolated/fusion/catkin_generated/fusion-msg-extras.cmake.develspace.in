@@ -1,0 +1,2 @@
+set(fusion_MESSAGE_FILES "/home/RZS/A06_ws/src/perception/fusion/msg/ObjectCount.msg;/home/RZS/A06_ws/src/perception/fusion/msg/BoundingBoxes.msg;/home/RZS/A06_ws/src/perception/fusion/msg/BoundingBox.msg;/home/RZS/A06_ws/src/perception/fusion/msg/Cone.msg;/home/RZS/A06_ws/src/perception/fusion/msg/Map.msg;/home/RZS/A06_ws/src/perception/fusion/msg/ClusterCone.msg;/home/RZS/A06_ws/src/perception/fusion/msg/ClusterCones.msg")
+set(fusion_SERVICE_FILES "")

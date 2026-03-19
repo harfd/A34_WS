@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -std=c++11 -O3 -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o   -L/home/RZS/A06_ws/build_isolated/lego_loam/gtest/googlemock/gtest/src  -Wl,-rpath,/home/RZS/A06_ws/build_isolated/lego_loam/gtest/googlemock/gtest/src -lpthread 

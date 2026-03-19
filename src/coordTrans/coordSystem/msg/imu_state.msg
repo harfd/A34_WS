@@ -1,0 +1,12 @@
+float32 roll_acc
+float32 pitch_acc
+float32 yaw_acc
+float32 X_acc
+float32 Y_acc
+float32 Z_acc
+float32 N_vel
+float32 E_vel
+float32 longitude
+float32 latitude
+float32 yaw
+float32 vel

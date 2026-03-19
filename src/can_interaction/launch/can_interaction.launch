@@ -1,0 +1,5 @@
+<launch>
+    <node name="can_interaction_node" pkg="can_interaction" type="can_interaction" output="screen">
+        <rosparam command="load" file="$(find can_interaction)/config/can_interaction.yaml" /> <!--Load parameters from config files-->
+    </node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/install_isolated
+
+Name: can_interaction
+Description: Description of can_interaction
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

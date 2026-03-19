@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/devel_isolated/fsd_tools
+
+Name: fsd_tools
+Description: Description of fsd_tools
+Version: 0.0.1
+Cflags: -I/home/RZS/A06_ws/src/preparation/fsd_tools/include
+Libs: -L${prefix}/lib -lfsd_tools
+Requires: 

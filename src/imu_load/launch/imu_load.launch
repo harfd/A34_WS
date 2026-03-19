@@ -1,0 +1,5 @@
+<launch>
+    <node name="imu_load_node" pkg="imu_load" type="imu_load" output="screen">
+        <rosparam command="load" file="$(find imu_load)/config/imu_load.yaml" /> <!--Load parameters from config files-->
+    </node>
+</launch>

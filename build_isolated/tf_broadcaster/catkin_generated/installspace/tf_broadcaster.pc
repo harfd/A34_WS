@@ -1,0 +1,8 @@
+prefix=/home/RZS/A06_ws/install_isolated
+
+Name: tf_broadcaster
+Description: Description of tf_broadcaster
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
